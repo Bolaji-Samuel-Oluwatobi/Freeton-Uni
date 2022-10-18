@@ -1,0 +1,629 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-page{
+    width: 100%;
+    min-height: 100vh;
+    background: #473558;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    bottom: 10px;
+    height: 40px;
+}
+nav .logo{
+    display: flex;
+    width: 150px;
+}
+nav .nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 10px;
+    position: relative;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav-links ul li a:hover{
+    opacity: 0.4;
+}
+
+nav input{
+    width: 95px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;
+    padding: 0px 5px;
+    border: none;
+}
+
+.show-case{
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient(0deg,rgba(72, 41, 131, 0.2),rgba(72, 41, 131, 0.2)), linear-gradient(0deg,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(eduford_img/library.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.face{
+    width: 60%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.face h1{
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.face p{
+    font-size: 17px;
+    color: aliceblue;
+    margin-bottom: 35px;
+    line-height: 25px;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #473558;
+    background: #fff;
+    padding: 10px 30px;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+.hero-btn:hover{
+    color: #fff;
+    background: #473558;
+}
+
+@media (max-width: 700px) {
+    .face h1{
+        font-size: 25px;
+    }
+}
+
+/*--------- ABOUT --------------*/
+
+.about{
+    width: 90%;
+    margin-left: 30px;
+    overflow-x: hidden;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-basis: 46%;
+    margin: 50px 38px;
+    flex-direction: row;
+}
+.left{
+    width: 50%;
+    text-align: left;
+}
+.left h1{
+    font-size: 50px;
+    font-weight: 350;
+    padding: 15px 0;
+}
+.left h2{
+    font-weight: 600;
+    padding: 10px 0;
+}
+.left p{
+    font-size: 16px;
+    color: #1D2939;
+    margin: 25px 0;
+    line-height: 25px;
+}
+.purple-btn{
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #473558;
+    padding: 13px 22px;
+}
+.purple-btn:hover{
+    color: #473558;
+    background: #9c9898;
+}
+
+.right{
+    width: 40%;
+    justify-content: right;
+    margin: 10px 35px;
+}
+.right iframe{
+    padding: 30px 30px;
+    width: 500px;
+    height: 320px;
+    margin-left: 10px;
+}
+
+/*-------------- Reason ----------- */
+
+.reason{
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 49px;
+    overflow-x: hidden;
+}
+.change{
+    width: 100%;
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: row;
+}
+.second{
+    margin-top: 100px;
+    padding: 0 10px;
+    width: 50%;
+}
+.second h1{
+    font-size: 35px;
+}
+.third{
+    justify-content: flex-end;
+    margin-top: 100px;
+
+}
+.third img{
+    height: 466.67px;
+    width: 600px;
+    
+}
+.stat-row{
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    margin-left: 0px;
+    background: #473558;
+  }
+.text-box{
+    width: 80%;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    padding: 40px 40px;
+    justify-content: center;
+   align-items: center;
+   margin-left: 50px;
+}
+.stats{
+    padding: 0px 25px;
+    width: 80%;
+}
+.stats h1{
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.stats p{
+    font-size: 12px;
+    color: rgb(187, 181, 181);
+}
+
+/*----------- facilities ------*/
+
+.facilities-col{
+    width: 80%;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+.try{
+    flex-basis: 50%;
+    width: 70%;
+    height: 30px;
+}
+.description{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px 0px;
+}
+.description img{
+    height: 60px;
+    padding-top: 40px;
+    padding-left: 0px;
+}
+.write-up{
+    padding-left: 10px;
+    margin-left: 15px;
+}
+.write-up h2{
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 23px;
+}
+.write-up p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.tip p{
+    margin-bottom: 23px;
+    margin-top: 5px;
+}
+.tip h1{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.leap{
+    flex-basis: 40%;
+    margin-top: 90px;
+}
+.leap img{
+    height: 400px;
+}
+
+/*----------- News and Updates ----------*/
+
+.news-col{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    
+}
+.news-col h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.boxes{
+    display: flex;
+    width: 100%;
+    flex-basis: 34%;
+}
+.box{
+    padding: 25px 15px;
+}
+.box h2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1D2939;
+}
+.box img{
+    width: 360px;
+    padding-bottom: 10px;
+    transition: all 0.7s ease;
+}
+.box img:hover{
+    transform: scale(1.25);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.box a{
+    color: #473558;
+    padding: 15px 0px;
+}
+.box a:hover{
+    color: red;
+}
+.box h5{
+    font-size: 12px;
+    color: #9c9898;
+    padding: 2px 0px;
+    font-weight: 300;
+}
+#shift{
+    margin: 30px 15px;
+}
+
+/*----------- ADMISSIONS ------------*/
+
+.admission-col{
+    height: 450px;
+    width: 100%;
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.479),rgba(0, 0, 0, 0.445)),url(eduford_img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+.layer{
+    width: 50%;
+    padding: 50px 25px;
+    margin-left: 560px;
+    background: rgba(53, 5, 141, 0.199);
+    height: 350px;
+}
+.layer h2{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 450;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.layer h4{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.layer p{
+    color: #cecaca;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+#turn{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/*---------- EVENTS -------------*/
+
+.events-col{
+    width: 100%;
+    margin: 100px 0px;
+    overflow-x: hidden;
+}
+.events-col h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    padding: 0px 10px;
+}
+.events{
+    display: flex;
+    flex-basis: 40%;
+    width: 100%;
+    padding: 0px 10px;
+}
+.one{
+    display: flex;
+    padding-left: 16px;
+}
+.event-date h2{
+      line-height: 27px;
+      color: #473558;
+      font-weight: 600;
+      padding: 0px 8px;
+      font-size: 16px;
+}
+.event-date p{
+    color: #1D2939;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0px 8px;
+}
+.event h2{
+    font-size: 18px;
+    font-weight: 450;
+    color: #1D2939;
+    padding: 0px 8px;
+}
+.event p{
+    color: #473558;
+    font-size: 14px;
+    padding: 0px 8px;
+}
+
+#leap{
+    margin: 65px 26px;
+}
+
+/*----------- REVIEWS -------------*/
+
+.reviews-col{
+    width: 100%;
+    overflow-x: hidden;
+}
+.reviews-col h1{
+    font-size: 45px;
+    font-weight: 420;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+.diff{
+    font-size: 14px;
+    margin-left: 45px;
+    color: #1D2939;
+}
+
+.review-row{
+    display: flex;
+    margin: 50px 0px;
+}
+.review{
+    flex-basis: 30%;
+    padding: 25px 30px;
+    text-align: center;
+}
+.review img{
+    transition: all 1s ease;
+}
+.review img:hover{
+    transform: scale(2.6);
+}
+.review h2{
+    font-weight: 550;
+    font-size: 21px;
+    color: #1D2939;
+}
+.review h4{
+    font-size: 15px;
+    font-weight: 500;
+    color: #473558;
+}
+.review p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 13px;
+    padding: 0px 3px;
+}
+
+/*------- FOOTERS ----------*/
+.footers-col{
+    width: 100%;
+    height: 250px;
+    border: 1px solid gray;
+    background: black;
+    overflow-x: hidden;
+    border-left: none;
+}
+
+.news-footer{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.news-footer h1{
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.email-space{
+    margin-left: 400px;
+}
+.email-space input{
+    padding-top: 9px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 70px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    margin: 10px 8px;
+    background: gray;
+    justify-content: center;
+}
+.email-space input::placeholder{
+    color: #ffffff;
+}
+
+.last-btn{
+    padding: 5px 20px;
+    font-size: 18px;
+}
+
+/*------------- FOOTER CARD ------------*/
+.footer-card{
+    background: black;
+    height: 520px;
+    border: 1px solid grey;
+}
+.footer-card h1{
+    font-weight: 500;
+}
+.footer-card h1, h3{
+    color: #ffffff;
+}
+.footer-card p{
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.fa-brands, .fa-regular, .fa-light{
+    color: #ffffff;
+    padding: 8px 10px;
+    font-size: 20px;
+}
+.fa-regular, .fa-light{
+    padding-right: 15px;
+    padding-top: 5px;
+}
+.footer-card a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    display: block;
+    padding-top: 20px;
+}
+.footer-card a:hover{
+    color: grey;
+}
+.card-info{
+    display: flex;
+    flex-basis: 25%;
+    padding: 40px 27px;
+}
+
+.card{
+    width: 25%;
+    padding: 40px 2px;
+}
+.card h3{
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.contact-links{
+    display: flex;
+    padding-top: 20px;
+}
+
+/*------------------- COPYRIGHT ---------*/
+.copyright{
+    width: 100%;
+    height: 50px;
+    background: #000000;
+    border: 1px solid grey;
+    justify-content: baseline;
+    align-items: baseline;
+}
+.finsh h2{
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+@media (max-width: 700px) {
+    .left{
+        display: block;
+    }
+    .text-box{
+        display: block;
+    }
+    .boxes{
+        display: block;
+    }
+    .layer{
+       width: 100%;
+    }
+    .events{
+        display: block;
+    }
+    .review-row{
+        display: block;
+    }
+    .card-info{
+        display: block;
+    }
+}
